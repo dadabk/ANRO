@@ -2,4 +2,6 @@
     <param name="robot_description" textfile="$(find lab2)/urdf/01-bez.urdf" />
     <node pkg="robot_state_publisher" type="robot_state_publisher" name="rob_st_pub" >
     </node>
+    <node name="rviz" pkg="rviz" type="rviz" >
+    </node>
   </launch>
