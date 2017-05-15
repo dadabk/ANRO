@@ -34,8 +34,8 @@ void something(const sensor_msgs::JointState & msg)
 	poseStamped.header.stamp = ros::Time::now();
 
 	point.x = frame.p.data[0];
-	point.x = frame.p.data[1];
-	point.x = frame.p.data[2];
+	point.y = frame.p.data[1];
+	point.z = frame.p.data[2];
 
 	poseStamped.pose.position = point;
 	

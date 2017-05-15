@@ -207,3 +207,5 @@ include_directories(include ${catkin_INCLUDE_DIRS})
 add_executable(KDL_DKIN src/KDL_DKIN.cpp)
 target_link_libraries(KDL_DKIN ${catkin_LIBRARIES})
 
+add_executable(NONKDL_DKIN src/NONKDL_DKIN.cpp)
+target_link_libraries(NONKDL_DKIN ${catkin_LIBRARIES})
