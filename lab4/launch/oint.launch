@@ -1,0 +1,5 @@
+<launch>
+	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find lab4)/rviz/conf_oint.rviz" required="true" />
+	<node name="oint" pkg="lab4" type="oint" output="screen" />
+	<node name="ocmd_node" pkg="lab4" type="ocmd_node" output="screen" />
+</launch>
